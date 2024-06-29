@@ -51,6 +51,7 @@ if st.button('Recommend'):
     names, posters = recommend(selected_movie_name)
     # for i in recommendations:
     #     st.write(i)
+    #     st.write(i)
     col1, col2, col3, col4, col5 = st.columns(5)
     
     with col1:
